@@ -1,0 +1,5 @@
+[0m[[0m[33mwarn[0m] [0m[0mC:\Coursera Scala Course\patmat\Huffman coding\src\main\scala\patmat\Huffman.scala:155:98: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: (List(0), _), (List(1), _), (List(??), _), (List(_), Fork(_, _, _, _)), (List(_), _), (Nil, Fork(_, _, _, _)), (Nil, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def decodeHelper(tree: CodeTree, bits: List[Bit],remainingTree: CodeTree):List[Char] = (bits,remainingTree) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
